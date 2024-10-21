@@ -1,0 +1,30 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: darkgrey;
+}
+
+div {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0px;
+    color: white;
+    backdrop-filter: blur(8px) brightness(80%);
+    background-color: rgb(99, 123, 135);
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
